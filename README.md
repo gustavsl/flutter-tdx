@@ -80,7 +80,7 @@ mkdir out
 cc -D_GNU_SOURCE \
 -lEGL -ldrm -lgbm -lGLESv2 -lrt -lflutter_engine -lpthread -ldl \
 -I./include -I/usr/include -I/usr/include/libdrm ./src/flutter-pi.c \
-./src/platformchannel.c ./src/pluginregistry.c ./src/plugins/services-plugin.c -o out/flutter-pi 
+./src/platformchannel.c ./src/pluginregistry.c ./src/plugins/services-plugin.c -o out/flutter-tdx 
 ```
 ## Running on Torizon
 TODO
