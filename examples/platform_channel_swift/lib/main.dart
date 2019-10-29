@@ -6,7 +6,9 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
+import 'package:flutter/foundation.dart'
+    show debugDefaultTargetPlatformOverride;
+    
 class PlatformChannel extends StatefulWidget {
   @override
   _PlatformChannelState createState() => _PlatformChannelState();
@@ -80,5 +82,6 @@ class _PlatformChannelState extends State<PlatformChannel> {
 }
 
 void main() {
+  debugDefaultTargetPlatformOverride = TargetPlatform.fuchsia;
   runApp(MaterialApp(home: PlatformChannel()));
 }
