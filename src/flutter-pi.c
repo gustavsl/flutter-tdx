@@ -509,7 +509,7 @@ bool setup_paths(void) {
 		return false;
 	}
 
-	snprintf(drm.device, sizeof(drm.device), "/dev/dri/card0");
+	snprintf(drm.device, sizeof(drm.device), "/dev/dri/card1");
 
 	return true;
 
