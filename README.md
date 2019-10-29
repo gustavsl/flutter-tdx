@@ -73,7 +73,7 @@ sudo apt install ttf-mscorefonts-installer
 sudo fc-cache
 ```
 
-## Compiling flutter-tdx (on the Colibri iMX6
+## Compiling flutter-tdx (on the Colibri iMX6)
 fetch all the dependencies, clone this repo and run:
 ```bash
 mkdir out
